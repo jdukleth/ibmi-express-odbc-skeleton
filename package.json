@@ -1,0 +1,37 @@
+{
+  "name": "express-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "build": "rm -rf dist && webpack --mode production",
+    "start": "node dist/main.js",
+    "live": "rm -rf dist && webpack --mode production && node dist/main.js",
+    "test": ""
+  },
+  "contributors": [],
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "itoolkit": "^1.0.0",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.7.8",
+    "odbc": "^2.4.4",
+    "underscore": "^1.13.6",
+    "url": "^0.11.0",
+    "util": "^0.12.4",
+    "uuid": "^9.0.0",
+    "xml2js": "^0.4.23"
+  }
+}
